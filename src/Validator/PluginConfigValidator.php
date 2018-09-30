@@ -4,11 +4,11 @@ declare(strict_types = 1);
 
 namespace Plugin\ImageProcessing\Validator;
 
-use CashewCRM\Exception\PluginConfigValidationException;
-use CashewCRM\Service\Plugin\PluginConfigValidatorInterface;
 use Plugin\ImageProcessing\Constants\PluginConfigConstants;
 use Respect\Validation\Exceptions\NestedValidationException;
 use Respect\Validation\Validator;
+use Vaalyn\PluginService\Exception\PluginConfigValidationException;
+use Vaalyn\PluginService\PluginConfigValidatorInterface;
 
 class PluginConfigValidator implements PluginConfigValidatorInterface {
 	/**

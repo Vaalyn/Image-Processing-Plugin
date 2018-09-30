@@ -4,14 +4,13 @@ declare(strict_types = 1);
 
 namespace Plugin\ImageProcessing;
 
-use CashewCRM\Service\Plugin\AbstractPlugin;
 use Plugin\ImageProcessing\Constants\PluginConfigConstants;
-
 use Plugin\ImageProcessing\Routes\Api;
 use Plugin\ImageProcessing\Service\ImageProcessor\GlideImageProcessor;
 use Plugin\ImageProcessing\Validator\PluginConfigValidator;
 use Psr\Container\ContainerInterface;
 use Slim\App;
+use Vaalyn\PluginService\AbstractPlugin;
 
 class ImageProcessingPlugin extends AbstractPlugin {
 	protected const PLUGIN_NAME = 'image-processing-plugin';
