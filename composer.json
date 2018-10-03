@@ -17,16 +17,6 @@
 		"vaalyn/config-loader-service": "dev-master",
         "vaalyn/plugin-service": "dev-master"
     },
-	"repositories": [
-		{
-			"type": "git",
-			"url": "git@github.com:Vaalyn/config-loader-service.git"
-		},
-		{
-			"type": "git",
-			"url": "git@github.com:Vaalyn/plugin-service.git"
-		}
-	],
 	"autoload": {
         "psr-4": {
 			"Plugin\\ImageProcessing\\": "src"
